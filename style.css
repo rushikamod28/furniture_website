@@ -1,0 +1,139 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F99417;
+    padding: 15px 50px;
+}
+.navb{
+    margin: 0 30px;
+}
+.icons i{
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+i:hover{
+    color:gray;
+}
+.first-section{
+    height: 600px;
+    background: #F0EEED;
+}
+.naman{
+    color: orange;
+}
+.para1{
+    position: absolute;
+    left:100px;
+    top:250px; 
+}
+.img1{
+    position: absolute;
+    left:540px;
+    top: 100px;
+}
+button{
+    color: #F0EEED;
+    font-size: 15px;
+    background-color: orange;
+    border:orange;
+    padding: 12px; 
+    border-radius: 5px;
+}
+
+button:hover{
+    padding:15px;
+}
+
+li{
+    color: orange;
+}
+li span{
+    color: black;
+}
+.second-section{
+    height: 600px;
+    width: 100%;
+}
+.para2{
+    position: absolute;
+    width: 50%;
+    right: 80px;
+    padding: 50px 0px;
+}
+.img2{
+    position:absolute;
+    height: 500px;
+    left:10px; 
+    padding: 50px 0px;  
+}
+.third-section{
+    text-align: center;
+    height:fit-content
+}
+.products img{
+    height:300px;
+    width:100%;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.p1 {
+    border: 2px solid orange;
+    width:30%;
+    border-radius: 50px; 
+}
+.fourth-section{
+    height: 200px;
+    background: #F0EEED;
+    text-align: center;
+}
+input{
+    padding: 10px;
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 16px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+}
+.sci .fa-brands{
+    padding: 10px;
+    background: #fe5b3b;
+    font-size: 20px;
+    border-radius: 100%;
+    color: #fff;
+}
+.sci .fa-brands:hover{
+    transform:scale(.8);
+}
+.copy{
+    text-align: center;
+    padding: 10px;
+    border-top: 2px dotted silver;
+}
+.con .about{
+    max-width: 500px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:#3E54AC;
+    padding: 2px;
+}
